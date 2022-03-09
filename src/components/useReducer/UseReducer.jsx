@@ -14,9 +14,9 @@ const UseReducer = () => {
 //   const [count, setCount] = useState(0)
      const initialValue = 0;
      const [state, dispatch] = useReducer(reducer, initialValue)
-//   useEffect(()=>{
-//      document.title = "useReducer"   
-//   },[])
+  useEffect(()=>{
+     document.title = "useReducer"   
+  },[])
   return (
     <>
       <div className="center_div">
